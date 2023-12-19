@@ -1,0 +1,123 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "build:lib": {
+      "name": "build:lib",
+      "command": "yarn build:lib",
+      "runAtStart": false
+    },
+    "build:prod": {
+      "name": "build:prod",
+      "command": "yarn build:prod",
+      "runAtStart": false
+    },
+    "build:test": {
+      "name": "build:test",
+      "command": "yarn build:test",
+      "runAtStart": false
+    },
+    "build:utils": {
+      "name": "build:utils",
+      "command": "yarn build:utils",
+      "runAtStart": false
+    },
+    "clean": {
+      "name": "clean",
+      "command": "yarn clean",
+      "runAtStart": false
+    },
+    "deduplicate": {
+      "name": "deduplicate",
+      "command": "yarn deduplicate",
+      "runAtStart": false
+    },
+    "develop": {
+      "name": "develop",
+      "command": "yarn develop",
+      "runAtStart": false
+    },
+    "eslint": {
+      "name": "eslint",
+      "command": "yarn eslint",
+      "runAtStart": false
+    },
+    "eslint:check": {
+      "name": "eslint:check",
+      "command": "yarn eslint:check",
+      "runAtStart": false
+    },
+    "eslint:files": {
+      "name": "eslint:files",
+      "command": "yarn eslint:files",
+      "runAtStart": false
+    },
+    "integrity": {
+      "name": "integrity",
+      "command": "yarn integrity",
+      "runAtStart": false
+    },
+    "prettier": {
+      "name": "prettier",
+      "command": "yarn prettier",
+      "runAtStart": false
+    },
+    "prettier:check": {
+      "name": "prettier:check",
+      "command": "yarn prettier:check",
+      "runAtStart": false
+    },
+    "prettier:files": {
+      "name": "prettier:files",
+      "command": "yarn prettier:files",
+      "runAtStart": false
+    },
+    "release:bump": {
+      "name": "release:bump",
+      "command": "yarn release:bump",
+      "runAtStart": false
+    },
+    "release:patch": {
+      "name": "release:patch",
+      "command": "yarn release:patch",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "update:dependency": {
+      "name": "update:dependency",
+      "command": "yarn update:dependency",
+      "runAtStart": false
+    },
+    "watch": {
+      "name": "watch",
+      "command": "yarn watch",
+      "runAtStart": false
+    },
+    "watch:app": {
+      "name": "watch:app",
+      "command": "yarn watch:app",
+      "runAtStart": false
+    },
+    "watch:lib": {
+      "name": "watch:lib",
+      "command": "yarn watch:lib",
+      "runAtStart": false
+    }
+  }
+}
